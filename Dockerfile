@@ -1,5 +1,5 @@
 #vim: set ft=dockerfile:
-FROM alpine:3.5
+FROM alpine:latest
 
 RUN apk update \
  && apk add openssh openssh-sftp-server vsftpd \
